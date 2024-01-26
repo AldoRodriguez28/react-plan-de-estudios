@@ -1,0 +1,47 @@
+ul{
+    display: flex;
+    list-style: none;
+    place-self: center;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    padding: 20px 0 20px 0;
+    color:white;
+    cursor: pointer;
+    height: 100%;
+}
+a:hover{
+    background-color: #707070;
+}
+.anchor-link{
+    height: 60px!important;
+    padding: 0;
+    display: flex;
+}
+.autor{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.container-header{
+    width: 100vw;
+    height: 60px;
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);    color:white;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.font-header{
+    font-family: 'Rubik Mono One', monospace;
+    padding: 0;
+    margin: 0;
+}
+.items-section{
+    display: flex;
+    margin-right: 16px;
+}
+.item{
+    padding-right: 20px;
+}

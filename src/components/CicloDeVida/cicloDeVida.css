@@ -1,0 +1,26 @@
+.container_exercise{
+    display: flex;
+}
+.time{
+    margin-right: 8%;
+}
+.actions{
+    display: flex;
+}
+.container_main{
+    margin-top: 3%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.description{
+    font-size: 24px;
+}
+.body_ciclo_de_vida{
+    max-height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 100%;
+}
