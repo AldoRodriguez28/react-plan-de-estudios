@@ -9,9 +9,7 @@ import ComponentFunctional from '../Hoc/Hoc_example/ComponentFunctional';
 
 export default function CustomHooks() {
 const ProjectWithVisitLogging = WithVisitLogging(ComponentFunctional)
-useEffect(()=>{
-  Prism.highlightAll();
-},[])
+
   return (
     <div className='container'>
       <div className="title">

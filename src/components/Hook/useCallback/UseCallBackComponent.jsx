@@ -14,7 +14,7 @@ export default function UseCallBackComponent() {
     <div>
         <h3>useCallback</h3>
         <p>
-            <code>useCallback</code>se utiliza para memorizar funciones, es especialmente util 
+            <code>useCallback</code> se utiliza para memorizar funciones, es especialmente util 
             cuando se pasan funcionnes como parametros a componentes hijos. Al igual que <code>useMemo</code>
             memoriza el resulta de una funcion, <code>useCallback</code> memoriza la funcion en si. Esto es util 
             para evitar que se creen nuevas instancias de funciones en cada renderizado del componente, lo que puede 
